@@ -15,18 +15,25 @@ This repository demonstrates:
 ## 📁 Project Structure
 
 project/
+
 │
 ├── data/
+
 │ ├── raw/ # Raw data (tracked with DVC, not Git)
 │ └── processed/ # Cleaned data for modeling
 │
 ├── notebooks/ # EDA and experiments
 │
 ├── src/ # Source code
+
 │ ├── data/
+
 │ │ └── preprocess.py
+
 │ ├── model/
+
 │ │ └── train.py
+
 │ └── init.py
 │
 ├── models/ # Trained models (DVC/MLflow artifacts)
@@ -34,9 +41,13 @@ project/
 ├── tests/ # Unit tests
 │
 ├── params.yaml # Parameters for reproducibility
+
 ├── requirements.txt # Python dependencies
+
 ├── dvc.yaml # DVC pipeline definition
+
 ├── README.md
+
 └── .gitignore
 
 
