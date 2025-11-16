@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+youtube_sentiment.egg-info/PKG-INFO
+youtube_sentiment.egg-info/SOURCES.txt
+youtube_sentiment.egg-info/dependency_links.txt
+youtube_sentiment.egg-info/top_level.txt

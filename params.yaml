@@ -1,0 +1,28 @@
+# =============================================
+# PARAMETERS FOR MLOPS PIPELINE (LOCAL MLFLOW)
+# =============================================
+
+data_ingestion:
+  source_url: "https://raw.githubusercontent.com/Himanshu-1703/reddit-sentiment-analysis/refs/heads/main/data/reddit.csv"
+  raw_data_path: "data/raw/source.csv"
+  train_path: "data/raw/train.csv"
+  test_path: "data/raw/test.csv"
+  test_size: 0.20
+
+preprocessing:
+  processed_train_path: "data/processed/train.csv"
+  processed_test_path: "data/processed/test.csv"
+
+model_building:
+  ngram_range: [1, 3]
+  max_features: 1000
+  learning_rate: 0.09
+  max_depth: 20
+  n_estimators: 367
+
+mlflow:
+  # Leave tracking_uri empty for local MLflow 
+  # (you will use the environment variable instead)
+  tracking_uri: ""
+  experiment_name: "dvc-pipeline-runs"
+  model_name: "youtube_sentiment_model"

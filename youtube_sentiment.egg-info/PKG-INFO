@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: youtube_sentiment
+Version: 0.1.0
+Author: Mohamed Adel Hafez
+Author-email: mohamed19.ramadan@gmail.com
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license-file

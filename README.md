@@ -52,6 +52,18 @@ project/
 
 
 ---
+## Technologies Used
+
+| Component           | Technology              |
+| ------------------- | ----------------------- |
+| Programming         | Python 3.11             |
+| ML Pipeline         | DVC                     |
+| Experiment Tracking | MLflow                  |
+| Modeling            | LightGBM                |
+| Feature Extraction  | TF-IDF / scikit-learn   |
+| Environment         | Conda                   |
+| Dataset             | YouTube/Reddit Comments |
+
 
 ## 🛠️ Setup Instructions
 
