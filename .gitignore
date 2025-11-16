@@ -6,7 +6,6 @@ __pycache__/
 .env
 .venv
 *.conda
-*.yaml
 .env/
 
 # Data
@@ -16,6 +15,8 @@ data/processed/*
 
 # DVC
 !.dvc
+.dvc/cache/
+.dvc/tmp/
 
 # MLflow
 mlruns/
@@ -32,4 +33,3 @@ models/*.png
 # OS files
 Thumbs.db
 .DS_Store
-
