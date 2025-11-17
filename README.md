@@ -67,7 +67,7 @@ project/
 
 ## 🛠️ Setup Instructions
 
-### 1️⃣ Create Conda Environment
+###  Create Conda Environment
 
 ```bash
 conda create -n youtube python=3.11 -y
